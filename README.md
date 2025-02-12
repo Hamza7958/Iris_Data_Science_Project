@@ -9,7 +9,6 @@ The Iris flower data set or Fisher's Iris data set is a multivariate data set in
 3. petal length in cm
 4. petal width in cm
 5. Species: -- Iris Setosa -- Iris Versicolour -- Iris Virginica
-
 ![Species](Figures\irises.png)
 
 # **Libraries Used**
@@ -284,10 +283,4 @@ There are two types of integer type in our raw dataset for clusttering.
 + If labels are available then classification is the best approach for high accuracy while on the other hand if labels are not available then clustering provides useful insights.
 + The Iris dataset is well-suited for classification but it create challenges for clustering due to overlapping classes(Versicolor & Virginica).
 + So if we have given label dataset then this is best for us to perform classification rather impliying Clustering.
-  
-
-
-
-
-
 
