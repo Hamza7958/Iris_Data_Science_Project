@@ -33,7 +33,7 @@ import seaborn as sns
 
 ```
 
-# **Data-Loading**
+# **Data Loading**
 
 Import the _**Iris.csv**_ using the pandas library and then We examine first few rows of data.
 
@@ -55,7 +55,7 @@ By Using Shape We can find out what the size of rows and columns in the given ir
 + We can see there is huge range in the size of the Sepal Length and Petal Length.-
 + We will use box plots and scatter plots to see if the size is related to the species of Iris dataset.
 
-![Stats](Figures\Stats.png)
+![Stats](Figures/Stats.png)
 
 # **Checking of Missing Values**
 
@@ -78,7 +78,7 @@ We need to do different visulization which shows our data visualy to us but ther
 + Is it clear to see that the iris Setosa has a significantly smaller Sepal width across the  species.
 + This difference occurs again for the Sepal width. And in both cases we can see that the Iris Viginica is the largest species.
 
-![Scatter](Figures\output.png)
+![Scatter](Figures/output.png)
 
 # **Another Scatter Plot** 
 
@@ -87,7 +87,7 @@ We need to do different visulization which shows our data visualy to us but ther
 + Is it clear to see that the iris Setosa has a significantly smaller Petal width across the  species.
 + This difference occurs again for the Petal width. And in both cases we can see that the Iris Viginica is the largest species.
 
-![Scatter](Figures\Scatter_Plot.png)
+![Scatter](Figures/Scatter_Plot.png)
 
 # **Box Plot**
 
@@ -98,43 +98,43 @@ The boxplot is a quick way of visually summarizing one or more groups of numeric
 3. Petal Length
 4. Petal Width
 
-![Box_Plot](Figures\Box_Plot.png)
+![Box_Plot](Figures/Box_Plot.png)
 
 # **KDE Plot**
 
 KDE (Kernel Density Estimation) is a non-parametric technique for estimating the probability density function (PDF) of a continuous random variable, smoothing data to show its distribution.
 
-![KDE_Plot](Figures\KDE_Plot.png)
+![KDE_Plot](Figures/KDE_Plot.png)
 
 # **Histogram**
 
 + A histogram is a graphical representation of the distribution of a dataset.
 + where data is grouped into bins, and the height of each bar represents the frequency of data points within that bin.
-![Histogram](Figures\Histogram_1.png)
-![Histogram](Figures\Histogram_2.png)
-![Histogram](Figures\Histogram_3.png)
-![Histogram](Figures\Histogram_4.png)
+![Histogram](Figures/Histogram_1.png)
+![Histogram](Figures/Histogram_2.png)
+![Histogram](Figures/Histogram_3.png)
+![Histogram](Figures/Histogram_4.png)
 
 # **Pie Chart**
 A pie chart is a circular statistical graphic divided into slices, where each slice represents a proportion of the whole, typically used to show percentage distributions.
-![Pie_Chart](Figures\Pie_Chart.png)
+![Pie_Chart](Figures/Pie_Chart.png)
 This graph shows us the equal presence of given iris speciess.
 
 # **Correlation HeatMap**
 
 A correlation heatmap is a graphical representation of a correlation matrix, where colors indicate the strength and direction of relationships between variables in a dataset.
-![Correlation](Figures\Coorelation_HeatMap.png)
+![Correlation](Figures/Coorelation_HeatMap.png)
 
 # **Violin Plot
 
 A voilin plot is used to visualise the distribution of the data and its probability density.
-![Violin_Plot](Figures\Violin_Plot.png)
+![Violin_Plot](Figures/Violin_Plot.png)
 This graph shows us that Iris-Setosa is more compact than the Iris-Verginica and Iris-Versicolor.
 
 # **Pair Plot**
 
 This chart enables us to quickly see the relationships between variables across multiple dimensions usings scatterplots and histograms.
-![Pair_Plot](Figures\Pair_Plot.png)
+![Pair_Plot](Figures/Pair_Plot.png)
 
 # **Machine Learning using scikit-learn**
 
@@ -211,12 +211,12 @@ Test Accuracy: 1.00.
 
 # **Classification Report**
 
-![Classification_Report](Figures\Classification_Report.png)
+![Classification_Report](Figures/Classification_Report.png)
 
 # **Confusion Matrix**
 
 It is actually the comparison between actual and predicted values.
-![Confusion_Matrix](Figures\Confusion_Matrix.png)
+![Confusion_Matrix](Figures/Confusion_Matrix.png)
 
 The rows represent the actual classes in the data.
 The columns represent the classes predicted by the model.
@@ -235,7 +235,7 @@ Clustering is an unsupervised machine learning technique used to group similar d
 science:
 # **Elbow Method For K-Mean Clustering**
 
-![Elbow_Plot](Figures\Elbow_Plot.png)
+![Elbow_Plot](Figures/Elbow_Plot.png)
 
 + The elbow appears around k=3 or k=5, where the rate of decrease slows down.
 + This suggests 3 or 5 clusters might be optimal for this dataset.
@@ -243,7 +243,7 @@ science:
 
 # **Silhouette Method For K-Mean Clustering**
 
-![Silhouette_Plot](Figures\Silhouette_Plot.png)
+![Silhouette_Plot](Figures/Silhouette_Plot.png)
 
 + The peak of the graph (k=2) indicates the optimal number of clusters, where the Silhouette Score is highest (around 0.61).
 + This suggests that dividing the data into two clusters provides the best separation and cohesion among the data points.
@@ -264,7 +264,7 @@ There are two types of integer type in our raw dataset for clusttering.
 + The separation between clusters suggests a clear distinction between groups, possibly from a clustering algorithm like K-Means  Clustering.
 + One cluster (yellow) is well separated on the left, while the other two clusters (green and purple) have some overlap in the center and right.
 
-![Clustering_Visulization_With_PCA](Figures\Cluster_Visulization_With_PCA.png)
+![Clustering_Visulization_With_PCA](Figures/Cluster_Visulization_With_PCA.png)
 
 # **Mean Value For Clusters**
 
@@ -272,11 +272,11 @@ There are two types of integer type in our raw dataset for clusttering.
 + **Cluster 1** has largest Sepal & Petal Lengths ,intermediate Sepal width,high Petal Width showing likely represents Iris Virginica.
 + **Cluster 2** has smallest Sepal & Petal Lengths ,widest Sepal width,near-zero Petal Width showing likely represents Iris Setosa.
 
-![Mean_Value_Table](Figures\Mean_Value_Table.png)
+![Mean_Value_Table](Figures/Mean_Value_Table.png)
 
 # **Comparison Between Classification and Clutering**
 
-![Comparison](Figures\Comparison.png)
+![Comparison](Figures/Comparison.png)
 
 # **Conclusion**
 
