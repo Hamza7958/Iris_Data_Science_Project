@@ -9,7 +9,7 @@ The Iris flower data set or Fisher's Iris data set is a multivariate data set in
 3. petal length in cm
 4. petal width in cm
 5. Species: -- Iris Setosa -- Iris Versicolour -- Iris Virginica
-![Species](Figures\irises.png)
+![Species](Figures/irises.png)
 
 # **Libraries Used**
 
